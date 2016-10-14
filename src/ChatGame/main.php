@@ -215,7 +215,7 @@ class main extends PluginBase implements Listener{
 		$random = mt_rand($this->getConfig()->get("min"), $this->getConfig()->get("max"));
         if($this->work == 1){
 		    if($message == $this->answer){
-                $player->sendMessage("§7(§aЧат-Игра§7) §aПоздравляем§7! §aВы выиграли в §fчат игре §aи получили§c $random ");
+                $player->sendMessage("§7(§aЧат-Игра§7) §aПоздравляем§7! §aВы выиграли в §fчат игре §aи получили§c $random $");
                 $this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §aИгрок§f ".$player->getName()." §aвыиграл в чат игре§7!");
                 $this->economyapi->addMoney($player->getName(), $random);
 				$this->work = 0;
