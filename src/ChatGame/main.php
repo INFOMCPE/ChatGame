@@ -194,7 +194,7 @@ class main extends PluginBase implements Listener{
 
 			case 21:
 			
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Пример§7: §c 123+123=?");
 			$this->answer = 246;
 			$this->work = 1;
@@ -217,6 +217,7 @@ class main extends PluginBase implements Listener{
 		    if($message == $this->answer){
                 $player->sendMessage("§7(§aЧат-Игра§7) §aПоздравляем§7! §aВы выиграли в §fчат игре §aи получили§c $random $");
                 $this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §aИгрок§f ".$player->getName()." §aвыиграл в чат игре§7!");
+                $this->getLogger()->info("Игрок ".$player->getName()." Победил в Чат-Игре и получил ".$random."");
                 $this->economyapi->addMoney($player->getName(), $random);
 				$this->work = 0;
                 $event->setCancelled(true);
