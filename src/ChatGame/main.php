@@ -39,7 +39,7 @@ class main extends PluginBase implements Listener{
 			case 1:
 			
              if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -51,7 +51,7 @@ class main extends PluginBase implements Listener{
 			
 			case 2:
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -65,7 +65,7 @@ class main extends PluginBase implements Listener{
 			case 3:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -78,7 +78,7 @@ class main extends PluginBase implements Listener{
 			case 4:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -91,7 +91,7 @@ class main extends PluginBase implements Listener{
 			case 5:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -104,7 +104,7 @@ class main extends PluginBase implements Listener{
 			case 6:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -117,7 +117,7 @@ class main extends PluginBase implements Listener{
 			case 7:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -130,7 +130,7 @@ class main extends PluginBase implements Listener{
 			case 8:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -143,7 +143,7 @@ class main extends PluginBase implements Listener{
 			case 9:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -156,7 +156,7 @@ class main extends PluginBase implements Listener{
 			case 10:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -169,7 +169,7 @@ class main extends PluginBase implements Listener{
 			case 11:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -182,7 +182,7 @@ class main extends PluginBase implements Listener{
 			case 12:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -195,7 +195,7 @@ class main extends PluginBase implements Listener{
 			case 13:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -208,7 +208,7 @@ class main extends PluginBase implements Listener{
 			case 14:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -221,7 +221,7 @@ class main extends PluginBase implements Listener{
 			case 15:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -234,7 +234,7 @@ class main extends PluginBase implements Listener{
 			case 16:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -247,7 +247,7 @@ class main extends PluginBase implements Listener{
 			case 17:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -260,7 +260,7 @@ class main extends PluginBase implements Listener{
 			case 18:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -273,7 +273,7 @@ class main extends PluginBase implements Listener{
 			case 19:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -286,7 +286,7 @@ class main extends PluginBase implements Listener{
 			case 20:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -299,7 +299,7 @@ class main extends PluginBase implements Listener{
 			case 21:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
@@ -312,7 +312,7 @@ class main extends PluginBase implements Listener{
 			case 22:
 			
 			if($this->getConfig()->get("item") == false){
-			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до".$max."$");
+			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7:§c от ".$min."$ до ".$max."$");
 			}
 			if($this->getConfig()->get("item") == true){
 			$this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §6Кто первый правильно ответит§7, §6тот получит§7: §9Р§aа§bн§4д§dо§eм§fн§9у§aю §bв§4е§dщ");
