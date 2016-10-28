@@ -1,0 +1,6 @@
+name: ChatGame
+main: ChatGame\main
+version: 2.0
+api: 2.0.0
+load: POSTWORLD
+author: opkiler22789
