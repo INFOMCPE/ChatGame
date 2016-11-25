@@ -13,6 +13,7 @@ use pocketmine\Player;
 use pocketmine\inventory\Inventory;
 use pocketmine\Server;
 use pocketmine\item\Item;
+use EconomyPlus\EconomyPlus;
 
 class main extends PluginBase implements Listener{
 	
@@ -23,12 +24,7 @@ class main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->saveDefaultConfig();
 		$this->getServer()->getScheduler()->scheduleRepeatingTask(new CallbackTask(array($this, "game")), $this->getConfig()->get("time"));
-		if($this->getServer()->getPluginManager()->getPlugin("EconomyAPI") != null){
-               $this->economyapi = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
-          }else{
-               $this->economyapi = null;
-               $this->getLogger()->critical("EconomyAPI НЕ НАЙДЕН скачайте плагин сдесь: http://infomcpe.ru/resources/Економика-ВСЯ.20/");
-          }
+		
 	}
 	
     public function game(){
@@ -333,11 +329,16 @@ class main extends PluginBase implements Listener{
                 $playere->sendMessage("§7(§aЧат-Игра§7) §aПоздравляем§7! §aВы выиграли в §fчат игре §aи получили§c $random $");
                 $this->getServer()->broadcastMessage("§7(§aЧат-Игра§7) §aИгрок§f ".$playere->getName()." §aвыиграл в чат игре§7!");
                 $this->getLogger()->info("Игрок ".$playere->getName()." Победил в Чат-Игре и получил ".$random."");
+              if($this->getServer()->getPluginManager()->getPlugin("EconomyAPI") != null){
+              	      $this->eco= $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
+		$this->eco->addMoney($playere->getName(), $random);
+               }
+               if($this->getServer()->getPluginManager()->getPlugin("EconomyPlus") != null){
+               $mi =EconomyPlus::getInstance()->addMoney($playere->getName(), $random);
+               $mi;
+             
+               }
               
-              if($this->getServer()->getPluginManager()->getPlugin("EconomyPlus") != null){
-              	EconomyPlusAPI::addMoney($playere->getName(), $random);
-                
-                }
                 }
                     if($this->getConfig()->get("item") == true){
                   //  $randomi = mt_rand(264, 303, 261, 32, 350, 354, 265, 266);
